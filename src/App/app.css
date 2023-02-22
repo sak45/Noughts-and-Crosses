@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    
+    background: #023047;
+    font-family: 'EB Garamond', serif;
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+.container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.navbar-brand {
+    padding-left: 0;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status {
+    margin-bottom: 10px;
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.game {
+    background: #fefae0;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 70%;
+}
+
+.game-info {
+    margin-left: 20px;
+    margin: 0;
+}
+
+/* saks CSS edition */
+
+h2, p {
+    font-family: 'EB Garamond', serif;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #fb8500;
+    margin: 5px 0;
+}
+
+
+
+.game {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+}
+
+.top {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.leaderboard {
+    display: flex;
+    justify-content: space-between;
+}
